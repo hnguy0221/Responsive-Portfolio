@@ -4,7 +4,8 @@
         <meta name="viewport" content="width=device-width, minimum-scale=0.1" charset="UTF-8"/>
         <title>Basic-Portfolio-About-Me</title>
         <!-- Linking CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/about-style.css">
     </head>
     <body>
         <header>
@@ -21,29 +22,33 @@
                 </nav>
             </div>
         </header>
-        <div class="container" id="container-dim-about">
-            <section class="section about-me-section">
-                <p class="section-header-text about-me-text">About Me</p>
-                <img src="assets/images/tigers.jpg" alt="Hai Nguyen" id="about-me-image"/>
-                <p class="paragraph">My name is Hai Nguyen. I came to the U.S.A in 1978 as a refugee from Vietnam. I attended Lakewood High School (Go Tigers) in Lakewood, Colorado and University of Colorado at Denver. I currently live in Westminster, Colorado with my wife and three boys, ages 11, 20, and 22.</p>
-                <p class="paragraph">In my career, I started out as a Software Test after college and worked for Storage Tech Corporation (STC) which is now Oracle Corporation. I left STC after eight years and joined McKesson as a Software Engineer. After almost twenty years, my tenure with McKesson finally came to an end on March 31st, 2017 as I was let go as part of the company's downsizing. My background includes C, C++, Java, Web Prgramming and Scripting, Linux, Unix, Oracle, Microsoft SQL Server, T-SQL, and Microsoft SQL Server Reporting Services (SSRS).</p>
-                <p class="paragraph">I am currently pursuing a full stack web development certificate from University of Denver. My interests are web development, football, running, biking, and fishing. In my spare time, I volunteer at Denver Rescue Mission, and at a local church in which I am a member.</p>
+        <div class="container">
+            <section class="about-me-section">
+                <p class="about-me-text">About Me</p>
+                <div class="img-paragraph">
+                    <img src="assets/images/tigers.jpg" alt="Hai Nguyen" id="about-me-image"/>
+                    <p class="paragraph">My name is Hai Nguyen. I came to the U.S.A in 1978 as a refugee from Vietnam. I attended Lakewood High School (Go Tigers) in Lakewood, Colorado and University of Colorado at Denver. I currently live in Westminster, Colorado with my wife and three boys, ages 11, 20, and 22.</p>
+                    <p class="paragraph">In my career, I started out as a Software Test after college and worked for Storage Tech Corporation (STC) which is now Oracle Corporation. I left STC after eight years and joined McKesson as a Software Engineer. After almost twenty years, my tenure with McKesson finally came to an end on March 31st, 2017 as I was let go as part of the company's downsizing. My background includes C, C++, Java, Web Prgramming and Scripting, Linux, Unix, Oracle, Microsoft SQL Server, T-SQL, and Microsoft SQL Server Reporting Services (SSRS).</p>
+                    <p class="paragraph">I am currently pursuing a full stack web development certificate from University of Denver. My interests are web development, football, running, biking, and fishing. In my spare time, I volunteer at Denver Rescue Mission, and at a local church in which I am a member.</p>
+                </div>
             </section>
-            <section id="connect-with-me-section-1">
-                <p id="connect-with-me-text">Connect with Me</p>
-                <a href="https://github.com/">
-                    <img class="github-img github-img-about-me" src="assets/images/github_square_black.png"/>
-                </a>
-                <a href="https://www.linkedin.com/feed/">
-                    <img class="social-icon-img linkedin-img-about-me" src="assets/images/linkedin.png"/>
-                </a>
-                <a href="http://stackoverflow.com/">
-                    <img class="social-icon-img stackoverflow-img-about-me" src="assets/images/stackoverflow.png"/>
-                </a>
+            <section id="connect-with-me-section">
+                <p class="connect-with-me-text">Connect with Me</p>
+                <div class="icons-img">
+                    <a href="https://github.com/">
+                        <img class="github-img" src="assets/images/github_square_black.png"/>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/">
+                        <img class="social-icon-img linkedin-img" src="assets/images/linkedin.png"/>
+                    </a>
+                    <a href="http://stackoverflow.com/">
+                        <img class="social-icon-img stackoverflow-img" src="assets/images/stackoverflow.png"/>
+                    </a>
+                </div>
             </section>
         </div>
-        <footer id="footer">
-            © Copyright 2016 Hai Nguyen
+        <footer class="my-footer">
+            <p>© Copyright 2017 Hai Nguyen</p>
         </footer>
     </body>
 </html>

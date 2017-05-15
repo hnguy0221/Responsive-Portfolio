@@ -1,0 +1,623 @@
+body
+{
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    /*font-size: 18px;*/
+    line-height: 150%;
+}
+
+#name
+{
+    float: left;
+    width: 62%;
+}
+
+h1
+{
+    text-align: center;
+    width: 225px;
+    color: #efeee7; 
+    background-color: #4aaaa5;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+#nav-1
+{
+    float: left;
+    width: 35%;
+    margin-top: 2%
+}
+
+#selection li
+{
+    list-style-type: none; /*remove bullet that appears in list*/
+    width: 5em;
+    text-align: center;
+    float: left;
+}
+
+#selection a
+{
+    text-decoration: none; /*remove underline that goes with links*/
+    color: #777777;
+    display: block; /*entire button becomes clickable, not just text*/
+}
+
+#selection a:hover
+{
+    border: 2px blue inset;
+}
+
+.container
+{
+    background-image: url("../images/white_sand.png");
+    padding-top: 3%;
+    margin-left: 1%;
+    border-bottom: 6px solid #4aaaa5;
+    border-top: 2px solid lightgrey;
+    clear: both;
+    width: 1230px;
+}
+
+.row
+{
+    margin-left: 4%;
+    padding: 0%;
+}
+
+.portfolio-section
+{
+    width: 51%;
+    background-color: #ffffff;
+    margin-left: 11.5%;
+}
+
+.portfolio-text
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #4aaaa5;
+    font-size: 27px;
+    border-bottom: 2px solid lightgrey; 
+}
+
+.game-img
+{
+    width: 265px;
+    margin-top: 5%;
+    padding-right: 4%;
+}
+
+.game-text
+{
+    width: 227px;
+    border: none;
+    text-align: center;
+    padding: 0.8em;
+    margin-left: 2%;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.hangman-text
+{
+    position: absolute;
+    left: 154px;
+    top: 354px;
+}
+
+.rpg-text
+{
+    position: absolute;
+    left: 446px;
+    top: 354px;
+}
+
+.trivia-text
+{
+    position: absolute;
+    left: 154px;
+    top: 591px;
+}
+
+.rutgers-info-widget-text
+{
+    position: absolute;
+    left: 446px;
+    top: 591px;
+}
+
+.rock-paper-scissors-text
+{
+    position: absolute;
+    left: 154px;
+    top: 827px;
+}
+
+#connect-with-me-section
+{
+    background-color: #ffffff;
+    margin-left: 3%;
+    width: 22%;
+    position: absolute;
+    top: 120px;
+    left: 786px;
+}
+
+.connect-with-me-text
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 8%;
+    color: #4aaaa5;
+    font-size: 24px;
+    border-bottom: 2px solid lightgrey;    
+}
+
+.icons-img
+{
+    margin: 7%;
+    padding-bottom: 2%;
+}
+
+.github-img
+{
+    width: 30%;
+}
+
+.social-icon-img
+{
+    width: 27%;
+    position: relative;
+}
+
+.linkedin-img
+{
+    left: 0px;
+    top: -5px;
+}
+
+.stackoverflow-img
+{
+    left: 2px;
+    top: -5px;
+}
+
+.my-footer
+{
+    margin-left: 1%;
+    padding:2%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #666666;
+    width: 1180px;
+}
+
+@media screen and (max-width: 980px)
+{
+    body
+    { 
+        background-color: white;
+    }
+
+    h1
+    {
+        margin-left: 19%;
+    }
+
+    .container
+    {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    #connect-with-me-section
+    {
+        width: 27%;
+        top: 112px;
+        left: 418px;
+    }
+
+    .portfolio-section
+    {
+        width: 32%;
+    }
+
+    .game-img
+    {
+        width: 95%;
+    }
+
+    .game-text
+    {
+        width: 25.3%;
+    }
+
+    .hangman-text
+    {
+        position: absolute;
+        left: 105px;
+        top: 301px;
+    }
+
+    .rpg-text
+    {
+        position: absolute;
+        left: 105px;
+        top: 524px;
+    }
+
+    .trivia-text
+    {
+        position: absolute;
+        left: 105px;
+        top: 741px;
+    }
+
+    .rutgers-info-widget-text
+    {
+        position: absolute;
+        left: 105px;
+        top: 962px;
+    }
+
+    .rock-paper-scissors-text
+    {
+        position: absolute;
+        left: 105px;
+        top: 1183px;
+    }
+
+    .my-footer
+    {
+        margin-left: 0%;
+        width: 96%;
+    }
+} 
+
+@media screen and (max-width: 768px)
+{
+    body
+    { 
+        background-color: white;
+    }
+
+    h1
+    {
+        margin-left: 5%;
+        padding: 6.4%
+    }
+    
+    .container
+    { 
+        margin-left: 0%;
+        width: 100%;
+        padding: 3%;
+    }
+
+    .connect-with-me-text
+    {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-left: 4%;
+    }
+
+    .portfolio-section
+    {
+        width: 100%;
+        margin: 0%;
+    }
+
+    #connect-with-me-section
+    {
+        position: relative;
+        width: 100%;
+        margin-top: 0px;
+        left: -23px;
+        top: 30px;
+    }
+
+    .game-img
+    {
+        width: 45%;
+    }
+
+    .game-text
+    {
+        width: 38%;
+    }
+
+    .hangman-text
+    {
+        position: absolute;
+        left: 39px;
+        top: 417px;
+    }
+
+
+    .rpg-text
+    {
+        position: absolute;
+        left: 404px;
+        top: 417px;
+    }
+
+    .trivia-text
+    {
+        position: absolute;
+        left: 39px;
+        top: 709px;
+    }
+
+    .rutgers-info-widget-text
+    {
+        position: absolute;
+        left: 404px;
+        top: 709px;
+    }
+
+    .rock-paper-scissors-text
+    {
+        position: absolute;
+        left: 39px;
+        top: 1004px;
+    }
+
+    /*.icons-img
+    {
+        position: relative;
+        margin-left: 4%;
+        padding-bottom: 0%;
+        top: -30px
+    }*/
+
+    .icons-img
+    {
+        margin-top: 2%;
+        margin-left: 4%;
+        padding-bottom: 2%;
+    }
+
+    .github-img
+    {
+        width: 10%;
+    }
+
+    .social-icon-img
+    {
+        width: 9%;
+    }
+
+    .my-footer
+    {
+        margin-left: 0%;
+        width: 102%;
+    }
+} 
+
+@media screen and (max-width: 640px)
+{
+    body
+    { 
+        background-color: white;
+    }
+
+    h1
+    {
+        width: 630px;
+        margin: 0%;
+        padding: 6.5%;
+    }
+
+    #nav-1
+    {
+        clear: both;
+        width: 677px;
+        background-color: white;
+    }
+    
+    #selection li
+    {
+        width: 12em;
+    }
+
+    .container
+    { 
+        margin-left: 0%;
+        width: 100%;
+        padding: 3%;
+    }
+
+    .connect-with-me-text
+    {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-left: 4%;
+    }
+
+    .portfolio-section
+    {
+        width: 45.5%;
+        margin: 0%;
+    }
+
+    #connect-with-me-section
+    {
+        position: relative;
+        width: 45.5%;
+        margin-top: 0px;
+        left: -19px;
+        top: 30px;
+    }
+
+    .hangman-text
+    {
+        position: absolute;
+        left: 19px;
+        top: 321px;
+    }
+
+    .rpg-text
+    {
+        position: absolute;
+        left: 19px;
+        top: 543px;
+    }
+
+    .trivia-text
+    {
+        position: absolute;
+        left: 19px;
+        top: 759px;
+    }
+
+    .rutgers-info-widget-text
+    {
+        position: absolute;
+        left: 19px;
+        top: 980px;
+    }
+
+    .rock-paper-scissors-text
+    {
+        position: absolute;
+        left: 19px;
+        top: 1200px;
+    }
+
+    .game-img
+    {
+        width: 95%;
+    }
+
+    .icons-img
+    {
+        margin-top: 2%;
+        margin-left: 4%;
+        padding-bottom: 2%;
+    }
+
+    .github-img
+    {
+        width: 22%;
+    }
+
+    .social-icon-img
+    {
+        width: 20%;
+    }
+
+    .game-text
+    {
+        width: 35.5%;
+    }
+
+    .my-footer
+    {
+        margin-left: 0%;
+        width: 102%;
+    }
+} 
+
+@media screen and (max-width: 400px)
+{
+
+    h1
+    {
+        width: 158%;
+    }
+    
+    #selection li
+    {
+        width: 8em;
+    }
+
+    .game-text
+    {
+        width: 33.5%;
+        font-size: 20px;
+    }
+
+    .hangman-text
+    {
+        position: absolute;
+        left: 11px;
+        top: 203px;
+    }
+
+    .rpg-text
+    {
+        position: absolute;
+        left: 11px;
+        top: 343px;
+    }
+
+    .trivia-text
+    {
+        position: absolute;
+        left: 11px;
+        top: 482px;
+    }
+
+    .rutgers-info-widget-text
+    {
+        position: absolute;
+        left: 11px;
+        top: 604px;
+    }
+
+    .rock-paper-scissors-text
+    {
+        position: absolute;
+        left: 11px;
+        top: 744px;
+    }
+
+    #connect-with-me-section
+    {
+        left: -12px;
+        top: 22px;
+    }
+
+    .github-img
+    {
+        width: 27%;
+    }
+
+    .social-icon-img
+    {
+        width: 25%;
+    }
+
+    .connect-with-me-text
+    {    
+        font-size: 22px; 
+    }
+
+    .portfolio-text
+    {
+        font-size: 22px;
+    }
+
+    .linkedin-img
+    {
+        top: 0px;
+    }
+
+    .stackoverflow-img
+    {
+        top: 0px;
+    }
+}
+    

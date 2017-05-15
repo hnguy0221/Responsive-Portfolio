@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=0.1" charset="UTF-8"/>
+        <title>Basic-Portfolio-Portfolio</title>
+        <!-- Linking CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="name">
+                <h1>Hai Nguyen</h1>
+            </div>
+            <div id="nav-1">
+                <nav id="selection">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container" id="container-dim-portfolio">
+            <section class="section portfolio-section">
+                <p class="section-header-text portfolio-text">Portfolio</p>
+                <img class="game-img hangman-img" src="assets/images/technics-q-c-640-480-1.jpg" />
+                <p class="game-text hangman-text">Hangman</p>
+                <img class="game-img rpg-game-img" src="assets/images/technics-q-c-640-480-2.jpg" />
+                <p class="game-text rpg-game-text">RPG Game</p>
+                <img class="game-img trivia-game-img" src="assets/images/technics-q-c-640-480-5.jpg" />
+                <p class="game-text trivia-game-text">Trivia Game</p>
+                <img class="game-img rutgers-info-widget-img" src="assets/images/technics-q-c-640-480-7.jpg" />
+                <p class="game-text rutgers-info-widget-text">Rutgers Info Widget</p>
+                <img class="game-img rock-paper-scissors-img" src="assets/images/technics-q-c-640-480-9.jpg" />
+                <p class="game-text rock-paper-scissors-text">Rock Paper Scissors</p>
+            </section>
+            <section id="connect-with-me-section-3">
+                <p id="connect-with-me-text">Connect with Me</p>
+                <a href="https://github.com/">
+                    <img class="github-img github-img-portfolio" src="assets/images/github_square_black.png"/>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                    <img class="social-icon-img linkedin-img-portfolio" src="assets/images/linkedin.png"/>
+                </a>
+                <a href="http://stackoverflow.com/">
+                    <img class="social-icon-img stackoverflow-img-portfolio" src="assets/images/stackoverflow.png"/>
+                </a>
+            </section>
+        </div>
+        <footer id="footer">© Copyright 2016 Hai Nguyen</footer>
+    </body>
+</html>
